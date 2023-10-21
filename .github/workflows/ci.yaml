@@ -19,9 +19,9 @@ jobs:
         go-version: 1.21  # Replace with your desired Go version
 
     - name: Build Go program
-      run: go build -o my-go-program
+      run: go build -o main.go
       working-directory: ./
 
     - name: Run Go program
-      run: ./my-go-program
+      run: ./main
       working-directory: ./
